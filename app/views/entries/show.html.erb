@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Minutes:</strong>
+  <%= @entry.minutes %>
+</p>
+
+<p>
+  <strong>Rate:</strong>
+  <%= @entry.rate %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @entry.client %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @entry.company %>
+</p>
+
+<p>
+  <strong>Employee:</strong>
+  <%= @entry.employee %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
