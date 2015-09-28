@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'rails-backbone'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
@@ -38,6 +38,11 @@ group :development, :test do
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+
+  gem 'better_errors'
+  gem 'pry-rails'
+  gem 'quiet_assets'
+  gem 'autoprefixer-rails'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
